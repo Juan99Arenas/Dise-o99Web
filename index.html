@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <script src="https://cdn.tailwindcss.com"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primera Pagina</title>
 </head>
-<body>
-    <header>
-        <div>
-            <h1>Mi Empresa</h1>
-            <nav>
+<body class="bg-blue-300 m-4 border-4 border-blue-500 p-4 mb-2 text-center">
+    <header class="text-center">
+        <div class="bg-blue-500">
+            <h1 class="text-4xl">Mi Empresa</h1>
+            <nav class="text-2xl">
                 <a href="#inicio">inicio</a>
                 <a href="#servicios">servicios</a>
                 <a href="#contacto">contacto</a>
@@ -17,29 +18,29 @@
         </div>
     </header>
     <main>
-        <section id="inicio">
-        <h2>Bienvenidos</h2>
+        <section id="inicio" class="text-center bg-blue-200 m-4">
+        <h2 class="text-2xl">Bienvenidos</h2>
         <p>Somos una empresa dedicada a crear soluciones digitales</p>
-        <button>Ver Mas</button>
-        <button>Contactar</button>
+        <button class="bg-green-300">Ver Mas</button>
+        <button class="bg-green-300">Contactar</button>
         </section>
         <section id="Servicios">
-        <h2>Nuestros Servicios</h2>
+        <h2 class="text-2xl text-2xl border-4 border-blue-500 p-4 mb-2">Nuestros Servicios</h2>
         <article>
-            <h3>Diseño web</h3>
+            <h3 class="text-2xl" >Diseño web</h3>
             <p>Creamos sitios web modernos y funcionales.</p>
         </article>
         <article>
-            <h3>Desarrollo</h3>
+            <h3 class="text-2xl border-4 border-blue-500 p-4 mb-2">Desarrollo</h3>
             <p>Programamos aplicaciones a medida.</p>
         </article>
         <article>
-            <h3>Marketing</h3>
+            <h3 class="text-2xl border-4 border-blue-500 p-4 mb-2">Marketing</h3>
             <p>Aumentamos tu presencia digital</p>
         </article>
         </section>
         <section id="Contacto">
-            <h2>Contacto</h2>
+            <h2 class="text-2xl">Contacto</h2>
             <form>
                                     <input type="text" id="nombre" placeholder="Tu nombre">
                 </div>
